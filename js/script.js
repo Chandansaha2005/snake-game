@@ -6,7 +6,7 @@ let snake = [];
 let food = {};
 let direction = 'right';
 let nextDirection = 'right';
-let gameSpeed = 50;
+let gameSpeed = 150;
 let gameLoop;
 let score = 0;
 let gridSize = 20;
