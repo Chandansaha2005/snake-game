@@ -296,7 +296,7 @@ function eatFood() {
     snake.push({});
 
     // Update score
-    score += 10;
+    score += 150;
     scoreDisplay.textContent = score;
 
     // Generate new food

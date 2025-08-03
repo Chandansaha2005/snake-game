@@ -53,7 +53,7 @@
 }
 
 body {
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: var(--bg);
     color: var(--text);
     min-height: 100vh;
@@ -69,7 +69,7 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
-.grid-background {
+/* .grid-background {
     position: absolute;
     top: 0;
     left: 0;
@@ -78,7 +78,7 @@ body {
     background-image:
         linear-gradient(var(--grid-line) 1px, transparent 1px),
         linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
-    background-size: 40px 40px;
+    background-size: 400px 40px;
     z-index: -1;
     perspective: 1000px;
     transform-style: preserve-3d;
@@ -93,7 +93,7 @@ body {
     100% {
         background-size: 42px 42px;
     }
-}
+} */
 
 .container {
     width: 100%;
@@ -286,7 +286,7 @@ body {
     padding: 15px;
     border: none;
     border-radius: 8px;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.2rem;
     font-weight: 500;
     text-transform: uppercase;
