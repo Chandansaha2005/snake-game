@@ -437,11 +437,11 @@ function loadHighScores() {
     } else {
         // Default high scores
         highScores = [
-            { name: 'NEO', score: 200 },
-            { name: 'TRINITY', score: 150 },
-            { name: 'CIPHER', score: 100 },
-            { name: 'GHOST', score: 80 },
-            { name: 'PIXEL', score: 50 }
+            { name: 'CHANDAN', score: 200 },
+            { name: 'MORA', score: 150 },
+            { name: 'SATYA', score: 100 },
+            { name: 'PUSSY', score: 80 },
+            { name: 'SAYAN', score: 50 }
         ];
         saveHighScores();
     }
@@ -453,7 +453,7 @@ function saveHighScores() {
 
 function addHighScore(newScore) {
     // Generate a random cyberpunk name
-    const names = ['NEO', 'CIPHER', 'GHOST', 'PIXEL', 'NOVA', 'GLITCH', 'ECHO', 'VOID', 'FLUX', 'BYTE'];
+    const names = ['CHANDAN', 'MORA', 'SATYA', 'PUSSY', 'SAYAN', 'DEEP', 'KHOYRI', 'LAL', 'SOBUJ', 'SUDHIR'];
     const randomName = names[Math.floor(Math.random() * names.length)];
 
     // Add new score
