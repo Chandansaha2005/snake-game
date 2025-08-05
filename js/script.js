@@ -296,7 +296,7 @@ function eatFood() {
     snake.push({});
 
     // Update score
-    score += 150;
+    score += 10;
     scoreDisplay.textContent = score;
 
     // Generate new food
@@ -463,7 +463,7 @@ function addHighScore(newScore) {
     highScores.sort((a, b) => b.score - a.score);
 
     // Keep only top 10
-    if (highScores.length > 10) {
+    if (highScores.length > 5) {
         highScores = highScores.slice(0, 10);
     }
 
