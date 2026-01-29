@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/github/languages/top/chandansaha2005/snake-game?color=green" />
   <img src="https://img.shields.io/github/stars/chandansaha2005/snake-game?style=social" />
 </p>
-
+ 
 ---
 
 # 🐍 Snake Game – Web Edition
